@@ -2,7 +2,8 @@ name: Release and Sync APK to Coolapk
 
 on:
   push:
-    tags: true
+    branches: 
+      - dev
 
 jobs:
   release:
